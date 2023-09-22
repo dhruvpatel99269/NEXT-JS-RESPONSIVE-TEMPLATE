@@ -73,7 +73,7 @@ export default function Home() {
 
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className='card hover:shadow-lg'>
-              <img src="/stew.jpg" alt="stew" className='w-full h-32 sm:h-48 object-cover'></img>
+              <Image src="/stew.jpg" alt="stew" className='w-full h-32 sm:h-48 object-cover'></Image>
               <div className='m-4'>
                 <span className='font-bold'>5 Bean Chill Stew</span>
                 <span className=' block text-gray-500 text-sm'>Recipe by Peter</span>
@@ -87,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className='card hover:shadow-lg'>
-              <img src="/noodles.jpg" alt="noodles" className='w-full h-32 sm:h-48 object-cover hover:zoom-125'></img>
+              <Image src="/noodles.jpg" alt="noodles" className='w-full h-32 sm:h-48 object-cover hover:zoom-125'></Image>
               <div className='m-4'>
                 <span className='font-bold'>Veg Noodles</span>
                 <span className=' block text-gray-500 text-sm'>Recipe by Peter</span>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
             </div>
             <div className='card hover:shadow-lg'>
-              <img src="/curry.jpg" alt="curry" className='w-full h-32 sm:h-48 object-cover'></img>
+              <Image src="/curry.jpg" alt="curry" className='w-full h-32 sm:h-48 object-cover'></Image>
               <div className='m-4'>
                 <span className='font-bold'>Tofu Curry</span>
                 <span className=' block text-gray-500 text-sm'>Recipe by Peter</span>
