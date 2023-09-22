@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <html>
     <head>
-      <script src='index.js' type='text/javascript'></script>
+      <script src='index.js' type='text/javascript' async></script>
     </head>
 
     <body className='font-serif'>
