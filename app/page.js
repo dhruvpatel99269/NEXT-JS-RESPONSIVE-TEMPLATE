@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Style from '/app/style.css'
 import Index from '/app/index.js'
 import Head from 'next/head';
+import Script from 'next/script';
 
 export default function Home() {
   return (
